@@ -38,7 +38,8 @@
   padding: 36px 0;
 }
 
-.header-nav-item {
+.header-nav-link {
+  display: block;
   height: 44px;
   background-color: transparent;
   color: inherit;
@@ -55,14 +56,14 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-nav-item:hover,
-.header-nav-item:focus {
+.header-nav-link:hover,
+.header-nav-link:focus {
   color: #7a3145;
   border-color: #d4bfc4;
   background-color: #d4bfc4;
 }
 
-.header-nav-item:active {
+.header-nav-link:active {
   color: #7a3145;
   border-color: #fbfbfb;
   background-color: #fbfbfb;

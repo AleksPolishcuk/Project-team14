@@ -1,0 +1,164 @@
+.footer-bg {
+  background-color: #7a3145;
+}
+
+.footer-container {
+  padding-top: 42px;
+  padding-bottom: 40px;
+}
+
+.footer-logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 168px;
+}
+
+.logo-icon {
+  fill: #fbfbfb;
+}
+
+.logo-description {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.footer-description {
+  font-family: 'Inter Tight', sans-serif;
+  color: #fbfbfb;
+  width: 335px;
+  margin-bottom: 40px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.exclamation-contacts-box {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 80px;
+}
+
+.exclamation-box {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-bottom: 40px;
+}
+
+.footer-exclamation {
+  margin: 0;
+  font-size: 32px;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #fbfbfb;
+  font-family: 'Inter Tight', sans-serif;
+  font-weight: 600;
+}
+
+.footer-contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.footer-tel,
+.footer-address {
+  font-family: 'Inter Tight', sans-serif;
+  font-style: normal;
+  text-decoration: none;
+  color: #fbfbfb;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.policy {
+  display: flex;
+  justify-content: space-between;
+  width: 196px;
+  margin-bottom: 16px;
+}
+
+.policy-item,
+.copy-rights {
+  color: rgb(212, 191, 196);
+  font-family: Inter Tight;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+@media screen and (min-width: 768px) {
+  .media-box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+  }
+
+  .media-policy-box {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .exclamation-box {
+    gap: 24px;
+    margin-bottom: 64px;
+  }
+
+  .footer-container {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+  .footer-contacts {
+    gap: 24px;
+  }
+
+  .logo-description {
+    gap: 24px;
+  }
+
+  .policy {
+    margin-bottom: 0;
+    width: 229px;
+  }
+
+  .footer-description {
+    width: 265px;
+    font-size: 16px;
+    margin-bottom: 0;
+  }
+
+  .footer-logo {
+    width: 216px;
+  }
+
+  .policy-item,
+  .copy-rights,
+  .footer-tel,
+  .footer-address {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .exclamation-contacts-box {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .exclamation-contacts-box {
+    flex-direction: row;
+    gap: 121px;
+  }
+
+  .media-box {
+    margin-bottom: 124px;
+  }
+
+  .footer-container {
+    padding-top: 52px;
+    padding-bottom: 52px;
+  }
+}
