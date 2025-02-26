@@ -23,18 +23,27 @@
 .how_it_works_section{
     display: flex;
     margin-top: 100px;
+/*    background-color: #7A3145;*/
+
 
     flex-direction: column;
 
 }
 .block_for_img{
-/*    width: 100vh;*/
+/*  margin: 0 auto;*/
+
     padding-left: 20px;
     padding-top: 40px;
     padding-bottom: 40px;
     padding-right: 20px;
     background-color: #7A3145;
 
+
+}
+.picture{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .women_cooks_img{
@@ -227,6 +236,9 @@ img{
 
   .list_works{
     gap: 24px;
+  }
+  .block_for_img{
+    width: 50%;
   }
 
 }
